@@ -13,5 +13,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" android:label="activity_login"/>
+        <activity android:name=".Home" android:label="Home"/>
     </application>
 </manifest>
