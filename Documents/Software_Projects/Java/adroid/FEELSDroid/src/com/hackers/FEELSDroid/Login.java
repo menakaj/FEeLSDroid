@@ -19,8 +19,6 @@ public class Login extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_login);
-//        Toast.makeText(getApplicationContext(), "HI", Toast.LENGTH_LONG).show();
-//        Intent intent = getIntent();
 
         final EditText regNo = (EditText) findViewById(R.id.editText);
         final EditText password = (EditText) findViewById(R.id.editText2);
@@ -31,7 +29,6 @@ public class Login extends Activity {
             public void onClick(View view) {
                 String regNO = regNo.getText().toString();
                 String pwd = password.getText().toString();
-//                regNo.setText(intent.getStringExtra("Hi"));
 
                 if(regNO.isEmpty()){
                     Toast.makeText(getApplicationContext(), "Enter registration number..!!!", Toast.LENGTH_LONG).show();

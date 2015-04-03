@@ -19,7 +19,6 @@ public class Welcome extends Activity {
         btn.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 login(view);
-//                Login login = new Login();
 
             }
         });
@@ -29,7 +28,6 @@ public class Welcome extends Activity {
     }
     public void login(View view){
         Intent intent = new Intent(this, Login.class);
-//        intent.putExtra("hi", "dfhjhfksdjsdf");
         startActivity(intent);
     }
 }
