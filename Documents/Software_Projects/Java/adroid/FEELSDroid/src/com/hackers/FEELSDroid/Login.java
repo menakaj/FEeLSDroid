@@ -31,17 +31,24 @@ public class Login extends Activity {
                 String pwd = password.getText().toString();
 
                 if(regNO.isEmpty()){
+                    regNo.setBackgroundColor(Color.RED);
                     Toast.makeText(getApplicationContext(), "Enter registration number..!!!", Toast.LENGTH_LONG).show();
                 }else if(pwd.isEmpty()){
+                    password.setBackgroundColor(Color.RED);
                     Toast.makeText(getApplicationContext(), "Enter Password...!!!", Toast.LENGTH_LONG).show();
                 }else{
-
                     Toast.makeText(getApplicationContext(), "Login success", Toast.LENGTH_LONG).show();
+                    gotoHome(view);
                 }
-
-
             }
         });
 
     }
+
+
+    public void gotoHome(View view){
+        Intent intent = new Intent(this, Home.class);
+        startActivity(intent);
+    }
+
 }
