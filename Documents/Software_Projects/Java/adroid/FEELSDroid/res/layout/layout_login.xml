@@ -2,47 +2,44 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent" android:id="@+id/rel2" tools:context=".Login">
+              android:layout_height="match_parent" android:id="@+id/rel2" tools:context=".Login"
+                android:background="#ff33b5e5">
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Login:"
-            android:id="@+id/textView_login" android:layout_alignParentLeft="true" android:layout_marginLeft="0dp"
-            android:layout_alignParentTop="true" android:layout_marginTop="0dp"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Registration Number: "
             android:id="@+id/textView_regNo"
-            android:layout_marginTop="44dp"
-            android:layout_below="@+id/textView_login" android:layout_alignParentLeft="true"/>
+            android:layout_marginTop="46dp"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+            android:layout_marginLeft="27dp"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/editText"
-            android:layout_alignBottom="@+id/textView_regNo" android:layout_toRightOf="@+id/textView_regNo"
-            android:layout_alignParentRight="true"/>
+            android:layout_below="@+id/textView_regNo" android:layout_alignRight="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Password: "
-            android:id="@+id/textView3" android:layout_below="@+id/editText" android:layout_alignParentLeft="true"
-            android:layout_marginTop="41dp"/>
+            android:id="@+id/textView3"
+            android:layout_marginTop="42dp" android:layout_below="@+id/editText"
+            android:layout_alignLeft="@+id/textView_regNo"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editText2" android:layout_alignTop="@+id/textView3"
-            android:layout_alignLeft="@+id/editText"/>
+            android:id="@+id/editText2"
+            android:layout_below="@+id/textView3" android:layout_centerHorizontal="true"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:id="@+id/btn_login" android:layout_below="@+id/editText2" android:layout_alignLeft="@+id/editText2"
-            android:layout_marginTop="51dp"/>
+            android:id="@+id/btn_login"
+            android:layout_marginTop="54dp" android:layout_below="@+id/editText2"
+            android:layout_alignRight="@+id/editText2" android:background="#ff79eede"/>
 </RelativeLayout>

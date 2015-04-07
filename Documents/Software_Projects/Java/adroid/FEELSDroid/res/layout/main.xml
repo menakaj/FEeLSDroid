@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:id="@+id/asd">
+              android:id="@+id/asd" android:background="#ff33b5e5">
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -22,7 +22,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Enter"
-            android:id="@+id/button" android:layout_below="@+id/textView2" android:layout_centerHorizontal="true"
-            android:layout_marginTop="37dp"/>
+            android:id="@+id/button"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            />
 </RelativeLayout>
 
