@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="phonegap">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/phonegap.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

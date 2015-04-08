@@ -13,7 +13,5 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Login" android:label="Login"/>
-        <activity android:name=".Home" android:label="Home"/>
     </application>
 </manifest>
