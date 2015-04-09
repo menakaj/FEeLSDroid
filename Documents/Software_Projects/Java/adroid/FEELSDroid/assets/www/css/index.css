@@ -24,16 +24,16 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color: #33ddff;
-    background-image:linear-gradient(top, #0932ff 0%, #3acce4 51%);
-    background-image:-webkit-linear-gradient(top, #0932ff 0%, #3acce4 51%);
-    background-image:-ms-linear-gradient(top, #0932ff 0%, #3acce4 51%);
+    background-color: #ff931c;
+    background-image:linear-gradient(top, #ff931c 0%, #e4c12a 51%);
+    background-image:-webkit-linear-gradient(top, #ff931c 0%, #e4c12a 51%);
+    background-image:-ms-linear-gradient(top, #ff931c 0%, #e4c12a 51%);
     background-image:-webkit-gradient(
         linear,
         left top,
         left bottom,
-        color-stop(0, #0932ff),
-        color-stop(0.51, #33ddff)
+        color-stop(0, #ff931c),
+        color-stop(0.51, #e4c12a)
     );
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
@@ -43,7 +43,7 @@ body {
     padding:0px;
     /*text-transform:uppercase;*/
     width:100%;
-    background-color: #0932ff;
+    background-color: #ff931c;
 }
 
 /* Portrait layout (default) */
@@ -72,10 +72,12 @@ body {
 
 #header{
     font-family:"Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif;
-    font-size: 10%;
+    font-size: 5%;
     text-shadow: 0px 1px 1px #fff;
     /*background-image: -webkit-gradient(linear, left top, left bottom, from(#33ddff), to(#0932ff));*/
     position: absolute;
+    padding-left: 10%;
+    padding-right: 5%;
     text-align: center;
     top: 50%;
     bottom: 50%;
@@ -87,10 +89,10 @@ body {
 
 #btn{
     position: absolute;
-    top: 60%;
-    bottom: 40%;
-    left: 30%;
-    right: 60%;
+    top: 75%;
+    bottom: 30%;
+    left: 40%;
+    right: 50%;
     padding-top: 10px;
     
 }
