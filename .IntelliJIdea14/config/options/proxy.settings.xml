@@ -1,0 +1,6 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="PROXY_HOST" value="cachex.pdn.ac.lk" />
+    <option name="PROXY_PORT" value="3128" />
+  </component>
+</application>

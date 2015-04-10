@@ -1,0 +1,82 @@
+body {
+    background-color: #ddd; /* Background color */
+    color: #222;
+    /* Foreground color used for text */
+    font-family: Helvetica;
+    font-size: 14px;
+    margin: 0;
+    /* Amount of negative space around the
+    outside of the body */
+    padding: 0;
+    /* Amount of negative space around the
+    inside of the body */
+}
+
+.head h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.main_content h4{
+    color: #204d74;
+    font-weight: bold;
+    text-align: center;
+}
+
+.head h1 a {
+    border-bottom: 1px solid #666;
+    color: #222;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 1px #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#999));
+}
+
+
+#content, #sidebar {
+padding: 10px;
+}
+
+#footer {
+display: none;
+}
+
+.hide{
+    display: none;
+}
+
+
+.container{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+
+#btn{
+    padding-top: 10%;
+    float: right;
+}
+
+#header #main_txt{
+    display: block;
+    position: fixed;
+    top: 30%;
+    /*bottom: 60%;*/
+    width: 100%;
+    left: 12.5%;
+    /*right: 25%;*/
+}
+
+#header ul li:first-child a {
+-webkit-border-top-left-radius: 8px;
+-webkit-border-top-right-radius: 8px;
+}
+#header ul li:last-child a {
+-webkit-border-bottom-left-radius: 8px;
+-webkit-border-bottom-right-radius: 8px;
+}
