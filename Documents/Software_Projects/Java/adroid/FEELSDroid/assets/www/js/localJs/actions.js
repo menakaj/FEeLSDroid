@@ -7,5 +7,7 @@ function validate(){
     if(x==null || x==""){
         alert("Enter your Registration Number");
         return false;
+    }else{
+
     }
 }

@@ -21,30 +21,43 @@
 }
 
 body {
-    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color: #ff931c;
-    background-image:linear-gradient(top, #ff931c 0%, #e4c12a 51%);
-    background-image:-webkit-linear-gradient(top, #ff931c 0%, #e4c12a 51%);
-    background-image:-ms-linear-gradient(top, #ff931c 0%, #e4c12a 51%);
-    background-image:-webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #ff931c),
-        color-stop(0.51, #e4c12a)
-    );
-    background-attachment:fixed;
-    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:10px;
-    height:100%;
-    margin:0px;
-    padding:0px;
-    /*text-transform:uppercase;*/
-    width:100%;
-    background-color: #ff931c;
+    /*-webkit-touch-callout: none;                /!* prevent callout to copy image, etc when tap to hold *!/*/
+    /*-webkit-text-size-adjust: none;             /!* prevent webkit from resizing text to fit *!/*/
+    /*-webkit-user-select: none;                  /!* prevent copy paste, to allow, change 'none' to 'text' *!/*/
+    /*background-color: #ff931c;*/
+    /*background-image:linear-gradient(top, #ff931c 0%, #e4c12a 51%);*/
+    /*background-image:-webkit-linear-gradient(top, #ff931c 0%, #e4c12a 51%);*/
+    /*background-image:-ms-linear-gradient(top, #ff931c 0%, #e4c12a 51%);*/
+    /*background-image:-webkit-gradient(*/
+        /*linear,*/
+        /*left top,*/
+        /*left bottom,*/
+        /*color-stop(0, #ff931c),*/
+        /*color-stop(0.51, #e4c12a)*/
+    /*);*/
+    /*background-attachment:fixed;*/
+    /*font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;*/
+    /*font-size:10px;*/
+    /*height:100%;*/
+    /*margin:0px;*/
+    /*padding:0px;*/
+    /*/!*text-transform:uppercase;*!/*/
+    /*width:100%;*/
+    /*background-color: #ff931c;*/
+
+    background-color: #ddd; /* Background color */
+    color: #222;
+    /* Foreground color used for text */
+    font-family: Helvetica;
+    font-size: 14px;
+    margin: 0;
+    /* Amount of negative space around the
+    outside of the body */
+    padding: 0;
+    /* Amount of negative space around the
+    inside of the body */
 }
+
 
 /* Portrait layout (default) */
 .app {
