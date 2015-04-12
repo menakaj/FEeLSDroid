@@ -1,6 +1,6 @@
 package com.hackers.FEELSDroid;
 
-
+//Created by Menaka Jayawardena
 import android.os.Bundle;
 import org.apache.cordova.DroidGap;
 
