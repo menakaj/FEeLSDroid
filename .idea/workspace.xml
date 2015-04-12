@@ -17,7 +17,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.hackers.FEELSDroid" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="619269fe-8241-4555-9bd0-9a3ffdc52a18" name="Default" comment="FEElS -&gt; FEels">
+    <list default="true" id="619269fe-8241-4555-9bd0-9a3ffdc52a18" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FEelsDroid.iws" />
@@ -481,7 +481,7 @@
       <created>1428878613953</created>
       <option name="number" value="Default" />
       <updated>1428878613953</updated>
-      <workItem from="1428878617591" duration="428000" />
+      <workItem from="1428878617591" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="Additional Commit">
       <created>1428878708773</created>
@@ -489,11 +489,17 @@
       <option name="project" value="LOCAL" />
       <updated>1428878708773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FEElS -&gt; FEels">
+      <created>1428879058369</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1428879058369</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="428000" />
+    <option name="totallyTimeSpent" value="444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="30" width="1368" height="699" extended-state="6" />
@@ -533,7 +539,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Additional Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Additional Commit" />
+    <MESSAGE value="FEElS -&gt; FEels" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEElS -&gt; FEels" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
